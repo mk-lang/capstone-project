@@ -5,9 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capstone Project</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .capstone-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .capstone-item {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 1;
+            max-width: 300px;
+            box-sizing: border-box;
+        }
+        .capstone-item h3 {
+            color: #007acc;
+        }
+        .capstone-item a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .capstone-item a:hover {
+            text-decoration: underline;
+        }
+        .capstone-item p {
+            margin-bottom: 10px;
+        }
+        .capstone-item iframe {
+            display: block;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <div class="capstone-item">
+    <div class="capstone-container">
+        <div class="capstone-item">
             <h3>Up-to-date Resume</h3>
             <p>Available in Kiswahili, English, and one indigenous African language.</p>
             <ul>
@@ -21,8 +66,8 @@
             <h3>Autobiographical Essay</h3>
             <p>An autobiographical essay of not less than twenty (20) pages on any invention or innovation in your field of study.</p>
             <a href="https://docs.google.com/document/d/1Xra1h6XoXXlepVOLHYvh8-EesdEst8hJVE5lZbLwsl0/edit?usp=sharing">Read Autobiography</a>
-      <br>
-            <a href="https://docs.google.com/presentation/d/16DyL2yPZ2tbMoPe6nUdJjIZcGNrMm6OvB-9S4mICV_c/edit?usp=sharing"> autobiography ppt</a>
+            <br>
+            <a href="https://docs.google.com/presentation/d/16DyL2yPZ2tbMoPe6nUdJjIZcGNrMm6OvB-9S4mICV_c/edit?usp=sharing">Autobiography PPT</a>
         </div>
 
         <div class="capstone-item">
@@ -30,16 +75,16 @@
             <p>A photographic essay showcasing your invention or innovation.</p><br>
             <a href="https://docs.google.com/document/d/1jZoWHpPOICHFyANoJu2Vn9sO2ardLFrG/edit?usp=sharing&ouid=100506834572636652230&rtpof=true&sd=true">View Photographic Essay</a>
         </div>
-        
+
         <div class="capstone-item">
             <h3>Capstone Video</h3>
             <p>Watch the video presentation of the Capstone Project.</p>
             <h3>INNOVATION IN HEALTH</h3>
-            <iframe src="https://drive.google.com/file/d/1pM_q7Kd1GTj_3oHoto_KoWk4ji00NSy4/preview" width="300" height="200" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1pM_q7Kd1GTj_3oHoto_KoWk4ji00NSy4/preview" width="250" height="150" allow="autoplay"></iframe>
             <h3>AFRICAN TRADITION</h3>
-            <iframe src="https://drive.google.com/file/d/18O91ImuneACF9Ld0K4oeds8yg_Nl6LTF/preview" width="300" height="200" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/18O91ImuneACF9Ld0K4oeds8yg_Nl6LTF/preview" width="250" height="150" allow="autoplay"></iframe>
             <h3>MODERN CHALLENGES</h3>
-            <iframe src="https://drive.google.com/file/d/1yx7Kyc9cNB4qlW3UdPQ3Z7S93E3NWSg7/preview" width="300" height="200" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1yx7Kyc9cNB4qlW3UdPQ3Z7S93E3NWSg7/preview" width="250" height="150" allow="autoplay"></iframe>
         </div>
 
         <div class="capstone-item">
@@ -51,7 +96,6 @@
                 <li><a href="https://docs.google.com/presentation/d/1kpD3zfu0q7PuHg53-OREPoH8wOkrctG_f7iiSezruhE/edit?usp=sharing">AFRICAN TRADITION</a></li>
             </ul>
         </div>
-
-    </section>
+    </div>
 </body>
 </html>
